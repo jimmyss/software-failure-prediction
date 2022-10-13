@@ -61,7 +61,7 @@ public class LRtrainGradientDescent {
             double [] Preval = PreVal(samNum,paraNum,feature,W);
             double sum_err = error_rate(samNum,Label,Preval);
             if (i % 10 == 0) {
-                System.out.println("第" + i + "次迭代的预测误差为:" + sum_err);
+                //System.out.println("第" + i + "次迭代的预测误差为:" + sum_err);
             }
             //预测值与标签的误差
             double [] err = new double[samNum];
